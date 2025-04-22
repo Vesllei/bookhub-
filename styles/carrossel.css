@@ -8,9 +8,15 @@
   padding: 1em 0 0.5em 0;
 }
 
+.swiper-pagination-bullet-active {
+  background-color: var(--laranja); /* ou qualquer outra cor para o ativo */
+  opacity: 1; /* opcional: deixa o ativo mais visível */
+}
+
 .swiper {
   background-color: var(--branco);
 }
+
 .swiper-slide img {
   width: 100%;
 }
