@@ -54,11 +54,10 @@
   margin: 1em;
   padding: 1em;
 }
-
 .descrição__imagem {
-  object-fit: cover; /* ou contain */
-  width: 100%;
-  height: auto; /* ou vice-versa, dependendo do layout */
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .descrição__titulo {
