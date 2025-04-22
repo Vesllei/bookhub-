@@ -43,6 +43,10 @@
   background-color: var(--branco);
 }
 
+.lista-menu__item:hover {
+  background-color: var(--cor-de-fundo);
+}
+
 .lista-menu__titulo {
   color: var(--laranja);
   font-weight: 700;
