@@ -55,9 +55,8 @@
   padding: 1em;
 }
 .descrição__imagem {
-  max-width: 100%;
+  width: 100%; /* A largura ocupa 100% do espaço disponível */
   height: auto;
-  display: block;
 }
 
 .descrição__titulo {
