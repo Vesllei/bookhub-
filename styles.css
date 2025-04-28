@@ -12,6 +12,8 @@
   --azul-degrade: linear-gradient(97.54deg, #473bf0 35.49%, #776fee 165.37%);
   --fonte-principal: "Poppins", sans-serif;
   --azul: #473bf0;
+  --fonte-secundaria: "Josefin Sans", sans-serif;
+  --preto: #000000;
 }
 
 * {
@@ -26,9 +28,9 @@ body {
   font-weight: 400;
 }
 
-h1 {
+/* h1 {
   background-color: aqua;
-}
+} */
 
 /* .container__imagem {
   width: 35px;
