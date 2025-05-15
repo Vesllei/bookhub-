@@ -104,17 +104,37 @@
   }
   .swiper-button-prev,
   .swiper-button-next {
-    background-color: var(--azul);
-    border-radius: 20px;
-    padding: 10px;
-    margin: 0em -1em;
-    color: var(--branco);
     display: block;
-    top: 60%;
+    color: var(--branco);
   }
 
   .card {
     width: 40%;
     margin: 02em auto;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .carrossel__container {
+    display: flex;
+    margin: 0 8vw 3em 8vw;
+    align-items: center;
+  }
+
+  .swiper-pagination {
+    margin: 0.5em 0;
+  }
+
+  .swiper {
+    width: 45%;
+  }
+
+  .card {
+    width: 38%;
+    margin-left: 1em;
+  }
+
+  .descricao {
+    margin-right: 1em;
   }
 }
